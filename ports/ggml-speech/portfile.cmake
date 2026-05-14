@@ -7,6 +7,8 @@ vcpkg_from_github(
     REF de7a55e3eea087bed6484607b518d60a3366acbe
     SHA512 160588159ca6cbd99ba2ebe0269ed8ae4a0672f6e296bec37cd94d75ea11090bc525211dcbb055239c65d49c5f844f204d68790cbadf5b8b4dae8d564fc52a74
     HEAD_REF speech
+    PATCHES
+        0001-fix-metal-null-buffer-on-alloc-failure.patch
 )
 
 set(GGML_METAL  OFF)
